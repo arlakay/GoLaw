@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/img_logo">
+
+        <ImageButton
+            android:id="@+id/btn_nikah"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btn_gono_gini"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_btn_image">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pernikahan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:padding="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gono - Gini"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/img_logo">
+
+        <ImageButton
+            android:id="@+id/btn_perdata"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btn_pidana"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_btn_image">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Perdata"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:padding="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pidana"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/img_logo">
+
+        <ImageButton
+            android:id="@+id/btn_lalu_lintas"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btn_hutang_piutang"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/button_blue"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_btn_image">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lalu Lintas"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:padding="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hutang Piutang"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

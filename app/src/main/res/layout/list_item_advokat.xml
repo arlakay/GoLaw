@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:minHeight="?android:attr/listPreferredItemHeight" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_advokat"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/advokat"
+        app:civ_border_color="@color/white"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image_advokat"
+        android:layout_centerInParent="true"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/txt_name_advokat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Description"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

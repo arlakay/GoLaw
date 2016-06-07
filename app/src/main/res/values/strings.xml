@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoLaw</string>
+    <string name="go_law">Go Law</string>
+    <string name="search_title">Type your search</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
