@@ -1,14 +1,17 @@
 package com.erd.golaw;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import com.erd.golaw.comunicate.OnFragmentInteractionListener;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {
     @BindView(R.id.toolbar) Toolbar toolbar;
 
     @Override
@@ -28,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupToolbar() {
         setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_white_24dp);
 
         if (getSupportActionBar() == null) {
             throw new IllegalStateException("Activity must implement toolbar");
         }
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+    }
 }

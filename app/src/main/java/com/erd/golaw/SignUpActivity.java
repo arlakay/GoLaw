@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.erd.golaw.comunicate.OnFragmentInteractionListener;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
  * Created by ILM on 6/2/2016.
  */
-public class SignUpActivity extends AppCompatActivity implements SignUpFragment.OnFragmentInteractionListener{
+public class SignUpActivity extends AppCompatActivity implements OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
